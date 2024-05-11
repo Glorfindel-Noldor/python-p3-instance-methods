@@ -4,4 +4,7 @@ class Dog:
     # Class body goes here
 
     #Instance method definition
-    pass
+    def bark(self):
+        return print('Woof!')
+    def sit(self):
+        return print('The dog is sitting.');
